@@ -84,25 +84,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="LI7-Vi-hk9">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LI7-Vi-hk9">
+                                <rect key="frame" x="16" y="40" width="343" height="607"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D0GQ9Jl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iBp-4c-4cc">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="607.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="548"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="5NY-7l-Tjw">
-                                        <rect key="frame" x="0.0" y="607.5" width="343" height="39.5"/>
+                                        <rect key="frame" x="0.0" y="568" width="343" height="39"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YG-QM-llU">
-                                                <rect key="frame" x="0.0" y="0.0" width="59" height="39.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="39"/>
                                                 <state key="normal" title="Previous"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2C-D7-0kP">
-                                                <rect key="frame" x="165" y="0.0" width="40" height="39.5"/>
+                                                <rect key="frame" x="165" y="0.0" width="40" height="39"/>
                                                 <state key="normal" title="Share"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iry-5g-RE9">
-                                                <rect key="frame" x="311" y="0.0" width="32" height="39.5"/>
+                                                <rect key="frame" x="311" y="0.0" width="32" height="39"/>
                                                 <state key="normal" title="Next"/>
                                             </button>
                                         </subviews>
@@ -113,9 +113,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="LI7-Vi-hk9" secondAttribute="trailing" constant="16" id="KZT-9L-Dbp"/>
-                            <constraint firstItem="LI7-Vi-hk9" firstAttribute="top" secondItem="UTM-EP-kLQ" secondAttribute="bottom" id="LSP-f9-beh"/>
+                            <constraint firstItem="LI7-Vi-hk9" firstAttribute="top" secondItem="UTM-EP-kLQ" secondAttribute="bottom" constant="20" id="LSP-f9-beh"/>
                             <constraint firstItem="LI7-Vi-hk9" firstAttribute="leading" secondItem="SgI-Qw-vAZ" secondAttribute="leading" constant="16" id="yFt-r9-i5z"/>
-                            <constraint firstItem="9Fn-WS-fhp" firstAttribute="top" secondItem="LI7-Vi-hk9" secondAttribute="bottom" id="yQ6-2G-p1f"/>
+                            <constraint firstItem="9Fn-WS-fhp" firstAttribute="top" secondItem="LI7-Vi-hk9" secondAttribute="bottom" constant="20" id="yQ6-2G-p1f"/>
                         </constraints>
                     </view>
                 </viewController>
