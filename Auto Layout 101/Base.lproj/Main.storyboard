@@ -27,7 +27,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D0GQ9Jl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iBp-4c-4cc">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="548"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="5NY-7l-Tjw">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="5NY-7l-Tjw">
                                         <rect key="frame" x="0.0" y="568" width="343" height="39"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YG-QM-llU">
@@ -35,7 +35,7 @@
                                                 <state key="normal" title="Previous"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2C-D7-0kP">
-                                                <rect key="frame" x="165" y="0.0" width="40" height="39"/>
+                                                <rect key="frame" x="158.5" y="0.0" width="40" height="39"/>
                                                 <state key="normal" title="Share"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iry-5g-RE9">
